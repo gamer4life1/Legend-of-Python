@@ -7,8 +7,6 @@ MAKE = make
 .PHONY: run test mantest doc clean
 
 run:
-	apt-get -y install python3 python3-pip
-	pip3 install pygame
 	$(PY) src
 
 test:
