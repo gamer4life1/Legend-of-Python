@@ -7,6 +7,7 @@ MAKE = make
 .PHONY: run test mantest doc clean
 
 run:
+	python3 -m pip install pygame
 	$(PY) src
 
 test:
